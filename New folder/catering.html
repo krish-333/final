@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Catering</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="common.js" defer></script>
+</head>
+<body>
+  <header><h1>Select Catering</h1></header>
+  <main class="cards">
+    <div class="card">
+      <h3>Veg Delight</h3>
+      <p>₹500 per guest</p>
+      <label>Guests:
+        <input type="number" min="1" id="guests-cat1" value="100" />
+      </label>
+      <button onclick="addVenue('Veg Delight Catering', 500, 'guests-cat1')">Add to Cart</button>
+    </div>
+  </main>
+</body>
+</html>
